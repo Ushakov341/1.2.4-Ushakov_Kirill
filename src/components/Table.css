@@ -1,0 +1,23 @@
+.tableTitle {
+    display: grid;
+    grid-template-columns: repeat(5, 140px);
+    grid-template-rows: repeat(5, auto);
+    grid-gap: 10px;
+    font-weight: 700;
+
+}
+
+
+.tableRow {
+    display: grid;
+    grid-template-columns: repeat(5, 140px);
+    grid-template-rows: repeat(5, auto);
+    grid-gap: 10px;
+    white-space: nowrap;
+}
+
+.button {
+display: flex;
+justify-content: center;
+align-items: center;
+}
