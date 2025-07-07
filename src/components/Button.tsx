@@ -7,7 +7,7 @@ function Button(props) {
 
   return (
     <button className="button" disabled={props.disabled}>
-      {props.children || 'Забронировать'}
+      {'Забронировать'}
     </button>
   );
 }
